@@ -13,6 +13,11 @@ const drawerWidth = 240;
 
 const sidebarItems = [
   {
+    title: 'Methods',
+    basePath: 'methods',
+    items: ['Push', 'Pop', 'Shift', 'Unshift'],
+  },
+  {
     title: 'Arrays',
     basePath: 'arrays',
     items: ['Reverse', 'Two Sum', 'Find Max'],

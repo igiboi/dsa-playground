@@ -1,3 +1,4 @@
+import { Push } from './components/Methods/Push';
 import { Sidebar } from './components/SideBar';
 import { VisualArray } from './components/VisualArray';
 import { Home } from './pages/Home';
@@ -12,6 +13,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/arrays/reverse' element={<VisualArray />} />
+          <Route path='/methods/push' element={<Push />} />
+          {/* <Route path='/methods/pop' element={<Pop />} />
+          <Route path='/methods/shift' element={<Shift />} />
+          <Route path='/methods/unshift' element={<Unshift />} />  */}
         </Routes>
       </Box>
     </Box>
